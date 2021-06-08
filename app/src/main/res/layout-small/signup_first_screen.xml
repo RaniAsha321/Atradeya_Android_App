@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    android:background="@color/white"
+    android:weightSum="9"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+
+        android:gravity="center"
+        android:layout_weight="3.3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+
+            android:layout_marginBottom="@dimen/_30sdp"
+            android:gravity="center"
+            android:layout_width="@dimen/_250sdp"
+            android:layout_height="@dimen/_80sdp"
+            android:layout_gravity="bottom"
+            android:background="@drawable/newlogo" />
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_marginRight="@dimen/_20sdp"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:orientation="vertical"
+        android:weightSum="8"
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+
+                android:gravity="center"
+                android:textSize="@dimen/_17sdp"
+                android:textColor="@color/themered"
+                android:fontFamily="@font/roboto_medium"
+                android:text="Register Your Account"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/view_register_account"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+
+                android:gravity="center"
+                android:textSize="@dimen/_12sdp"
+                android:textColor="#333e48"
+                android:fontFamily="@font/raleway"
+                android:text="Create new account today to reap the benefits of"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+
+                android:gravity="center"
+                android:textSize="@dimen/_12sdp"
+                android:textColor="#333e48"
+                android:fontFamily="@font/raleway"
+                android:text="a personalized shopping experience."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+
+                android:gravity="center"
+                android:textSize="@dimen/_12sdp"
+                android:textColor="#333e48"
+                android:fontFamily="@font/raleway"
+                android:text="Email Address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_25sdp"
+                android:weightSum="4">
+
+                <EditText
+
+                    android:clickable="true"
+                    android:focusableInTouchMode="true"
+                    android:inputType="textEmailAddress"
+                    android:id="@+id/edtxt_signup_first_screen_email"
+                    android:layout_width="@dimen/_215sdp"
+                    android:layout_height="@dimen/_23sdp"
+                    android:layout_weight="3.8"
+                    android:background="@null"
+                    android:filterTouchesWhenObscured="false"
+                    android:fontFamily="@font/roboto_medium"
+                    android:includeFontPadding="false"
+                    android:paddingLeft="@dimen/_10sdp"
+                    android:paddingTop="@dimen/_10sdp"
+                    android:textColorHint="#333e48"
+                    android:textSize="@dimen/_12sdp" />
+
+                <ImageView
+
+                    android:layout_width="@dimen/_15sdp"
+                    android:layout_height="@dimen/_17sdp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="@dimen/_2sdp"
+                    android:layout_marginRight="15dp"
+                    android:layout_weight="0.2"
+                    android:background="@drawable/email_icon72" />
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="1dp">
+                <View
+
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#353e47" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+
+                android:layout_marginTop="@dimen/_5sdp"
+                android:gravity="center"
+                android:textSize="@dimen/_13sdp"
+                android:textColor="#333e48"
+                android:fontFamily="@font/raleway"
+                android:text="A password will be sent to your email address."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+
+
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+
+                android:gravity="center"
+                android:textAllCaps="false"
+                android:id="@+id/btn_signup_first_register"
+                android:layout_width="@dimen/_280sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:background="@drawable/shape"
+                android:text="Register"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/_13sdp"
+                android:fontFamily="@font/roboto_medium"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:layout_weight="3.7"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/signup_lock"
+            android:layout_marginBottom="@dimen/_16sdp"/>
+
+        <TextView
+
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:gravity="left"
+            android:textSize="@dimen/_12sdp"
+            android:textColor="#333e48"
+            android:fontFamily="@font/raleway"
+            android:text="Your personal data will be used to support your experience throughout this website, to manage access to your account, and for other purposes described in our privacy policy. "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_marginLeft="@dimen/_20sdp"
+    android:layout_marginRight="@dimen/_20sdp"
+    android:weightSum="12"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+
+        android:paddingTop="@dimen/_12sdp"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+
+            android:gravity="center"
+            android:textSize="@dimen/_17sdp"
+            android:textColor="@color/themered"
+            android:fontFamily="@font/roboto_medium"
+            android:text="Account Information"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/ic_view_personal_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+
+            android:gravity="center"
+            android:textSize="@dimen/_12sdp"
+            android:textColor="#333e48"
+            android:fontFamily="@font/raleway"
+            android:text="Account Number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_25sdp"
+            android:weightSum="4">
+
+            <EditText
+
+                android:id="@+id/edtxt_signup_third_screen_account_number"
+                android:clickable="true"
+                android:focusableInTouchMode="true"
+                android:inputType="textEmailAddress"
+                android:layout_width="@dimen/_215sdp"
+                android:layout_height="@dimen/_23sdp"
+                android:layout_weight="3.8"
+                android:background="@null"
+                android:filterTouchesWhenObscured="false"
+                android:fontFamily="@font/roboto_medium"
+                android:includeFontPadding="false"
+                android:paddingLeft="@dimen/_10sdp"
+                android:paddingTop="@dimen/_10sdp"
+                android:textColorHint="#333e48"
+                android:textSize="@dimen/_12sdp" />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="1dp">
+            <View
+
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#353e47" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+
+            android:gravity="center"
+            android:textSize="@dimen/_12sdp"
+            android:textColor="#333e48"
+            android:fontFamily="@font/raleway"
+            android:text="Business Name *"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_25sdp"
+            android:weightSum="4">
+
+            <EditText
+
+                android:id="@+id/edtxt_signup_third_screen_business_name"
+                android:clickable="true"
+                android:focusableInTouchMode="true"
+                android:inputType="textEmailAddress"
+                android:layout_width="@dimen/_215sdp"
+                android:layout_height="@dimen/_23sdp"
+                android:layout_weight="3.8"
+                android:background="@null"
+                android:filterTouchesWhenObscured="false"
+                android:fontFamily="@font/roboto_medium"
+                android:includeFontPadding="false"
+                android:paddingLeft="@dimen/_10sdp"
+                android:paddingTop="@dimen/_10sdp"
+                android:textColorHint="#333e48"
+                android:textSize="@dimen/_12sdp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="1dp">
+            <View
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#353e47" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+
+            android:gravity="center"
+            android:textSize="@dimen/_12sdp"
+            android:textColor="#333e48"
+            android:fontFamily="@font/raleway"
+            android:text="Company Name *"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_25sdp"
+            android:weightSum="4">
+
+            <EditText
+
+                android:id="@+id/edtxt_signup_third_screen_company_name"
+                android:clickable="true"
+                android:focusableInTouchMode="true"
+                android:inputType="textEmailAddress"
+                android:layout_width="@dimen/_215sdp"
+                android:layout_height="@dimen/_23sdp"
+                android:layout_weight="3.8"
+                android:background="@null"
+                android:filterTouchesWhenObscured="false"
+                android:fontFamily="@font/roboto_medium"
+                android:includeFontPadding="false"
+                android:paddingLeft="@dimen/_10sdp"
+                android:paddingTop="@dimen/_10sdp"
+                android:textColorHint="#333e48"
+                android:textSize="@dimen/_12sdp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="1dp">
+
+            <View
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#353e47" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+
+        android:paddingTop="@dimen/_12sdp"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+
+            android:gravity="center"
+            android:textSize="@dimen/_17sdp"
+            android:textColor="@color/themered"
+            android:fontFamily="@font/roboto_medium"
+            android:text="Billing Address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/view_register_account"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+
+            android:gravity="center"
+            android:textSize="@dimen/_12sdp"
+            android:textColor="#333e48"
+            android:fontFamily="@font/raleway"
+            android:text="Billing Address *"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_25sdp"
+            android:weightSum="4">
+
+            <EditText
+
+                android:id="@+id/edtxt_signup_third_screen_billing_address"
+                android:clickable="true"
+                android:focusableInTouchMode="true"
+                android:inputType="textEmailAddress"
+                android:layout_width="@dimen/_215sdp"
+                android:layout_height="@dimen/_23sdp"
+                android:layout_weight="3.8"
+                android:background="@null"
+                android:filterTouchesWhenObscured="false"
+                android:fontFamily="@font/roboto_medium"
+                android:includeFontPadding="false"
+                android:paddingLeft="@dimen/_10sdp"
+                android:paddingTop="@dimen/_10sdp"
+                android:textColorHint="#333e48"
+                android:textSize="@dimen/_12sdp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="1dp">
+
+            <View
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#353e47" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+
+            android:gravity="center"
+            android:textSize="@dimen/_12sdp"
+            android:textColor="#333e48"
+            android:fontFamily="@font/raleway"
+            android:text="Address *"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_25sdp"
+            android:weightSum="4">
+
+            <EditText
+
+                android:id="@+id/edtxt_signup_third_screen_billing_address1"
+                android:clickable="true"
+                android:focusableInTouchMode="true"
+                android:inputType="textEmailAddress"
+                android:layout_width="@dimen/_215sdp"
+                android:layout_height="@dimen/_23sdp"
+                android:layout_weight="3.8"
+                android:background="@null"
+                android:filterTouchesWhenObscured="false"
+                android:fontFamily="@font/roboto_medium"
+                android:includeFontPadding="false"
+                android:paddingLeft="@dimen/_10sdp"
+                android:paddingTop="@dimen/_10sdp"
+                android:textColorHint="#333e48"
+                android:textSize="@dimen/_12sdp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="1dp">
+
+            <View
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#353e47" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+
+            android:gravity="center"
+            android:textSize="@dimen/_12sdp"
+            android:textColor="#333e48"
+            android:fontFamily="@font/raleway"
+            android:text="City *"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_25sdp"
+            android:weightSum="4">
+
+            <EditText
+
+                android:id="@+id/edtxt_signup_third_screen_billing_city"
+                android:clickable="true"
+                android:focusableInTouchMode="true"
+                android:inputType="textEmailAddress"
+                android:layout_width="@dimen/_215sdp"
+                android:layout_height="@dimen/_23sdp"
+                android:layout_weight="3.8"
+                android:background="@null"
+                android:filterTouchesWhenObscured="false"
+                android:fontFamily="@font/roboto_medium"
+                android:includeFontPadding="false"
+                android:paddingLeft="@dimen/_10sdp"
+                android:paddingTop="@dimen/_10sdp"
+                android:textColorHint="#333e48"
+                android:textSize="@dimen/_12sdp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="1dp">
+
+            <View
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#353e47" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+
+            android:gravity="center"
+            android:textSize="@dimen/_12sdp"
+            android:textColor="#333e48"
+            android:fontFamily="@font/raleway"
+            android:text="Postcode *"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_25sdp"
+            android:weightSum="4">
+
+            <EditText
+
+                android:id="@+id/edtxt_signup_third_screen_billing_postcode"
+                android:clickable="true"
+                android:focusableInTouchMode="true"
+                android:inputType="textEmailAddress"
+                android:layout_width="@dimen/_215sdp"
+                android:layout_height="@dimen/_23sdp"
+                android:layout_weight="3.8"
+                android:background="@null"
+                android:filterTouchesWhenObscured="false"
+                android:fontFamily="@font/roboto_medium"
+                android:includeFontPadding="false"
+                android:paddingLeft="@dimen/_10sdp"
+                android:paddingTop="@dimen/_10sdp"
+                android:textColorHint="#333e48"
+                android:textSize="@dimen/_12sdp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="1dp">
+
+            <View
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#353e47" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </LinearLayout>
+
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+
+            android:gravity="left"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+
+                android:id="@+id/btn_signup_third_previous"
+                android:gravity="center"
+                android:textAllCaps="false"
+                android:fontFamily="@font/roboto_medium"
+                android:text="Previous"
+                android:textColor="@color/themered"
+                android:textSize="@dimen/_13sdp"
+                android:background="@drawable/shape_rectangle_round"
+                android:layout_width="@dimen/_130sdp"
+                android:layout_height="@dimen/_40sdp">
+
+            </Button>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+
+            android:gravity="right"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+
+                android:id="@+id/btn_signup_third_next"
+                android:gravity="center"
+                android:fontFamily="@font/roboto_medium"
+                android:textAllCaps="false"
+                android:text="Next"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_13sdp"
+                android:background="@drawable/shape"
+                android:layout_width="@dimen/_130sdp"
+                android:layout_height="@dimen/_40sdp">
+
+            </Button>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </LinearLayout>
+
+
+</LinearLayout>

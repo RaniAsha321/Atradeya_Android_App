@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    android:paddingRight="@dimen/_15sdp"
+    android:gravity="center_horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/_150sdp">
+
+    <LinearLayout
+
+        android:background="@drawable/shape_corner_rounded_blue_card"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_100sdp">
+
+
+    </LinearLayout>
+
+    <TextView
+
+        android:paddingBottom="@dimen/_5sdp"
+        android:textSize="@dimen/_9sdp"
+        android:fontFamily="@font/raleway_medium"
+        android:text="The Atradeya Book"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

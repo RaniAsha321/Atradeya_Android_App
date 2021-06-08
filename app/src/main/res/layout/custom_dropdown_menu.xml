@@ -1,0 +1,114 @@
+
+<LinearLayout
+
+    android:layout_marginRight="@dimen/_5sdp"
+    android:layout_marginLeft="@dimen/_5sdp"
+    android:id="@+id/offer_layout"
+    android:weightSum="5.8"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:id="@+id/layout_popup_upper"
+        android:alpha="0.8"
+        android:background="@color/themeblack"
+        android:layout_weight="1.9"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:weightSum="8"
+        android:orientation="horizontal"
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+
+            android:background="@color/themeblack"
+            android:alpha="0.8"
+            android:layout_weight="3.8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_weight="0.4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+
+                android:alpha="1.8"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="8dp"
+                android:background="#aaaaaa"
+                >
+
+                <TextView
+
+                    android:textStyle="bold"
+                    android:fontFamily="@font/raleway"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Select"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/_15sdp"
+                    android:paddingBottom="@dimen/_3sdp"
+                    />
+
+
+                <ListView
+
+                    android:id="@+id/list"
+                    android:background="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </ListView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:background="@color/themeblack"
+            android:alpha="0.8"
+            android:layout_weight="3.8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+
+        android:id="@+id/layout_popup_bottom"
+        android:orientation="horizontal"
+        android:alpha="0.8"
+        android:background="@color/themeblack"
+        android:layout_weight="1.9"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

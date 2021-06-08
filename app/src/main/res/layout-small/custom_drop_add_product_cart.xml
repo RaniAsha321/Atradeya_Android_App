@@ -1,0 +1,343 @@
+
+<LinearLayout
+
+    android:background="#aaaaaa"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_230sdp">
+
+    <LinearLayout
+
+        android:visibility="gone"
+        android:orientation="horizontal"
+        android:id="@+id/layout_popup_upper_cart"
+        android:alpha="0.8"
+        android:background="@color/themeblack"
+        android:layout_weight="1.9"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_margin="@dimen/_5sdp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+
+            android:textStyle="bold"
+            android:fontFamily="@font/raleway"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Product"
+            android:textColor="#000000"
+            android:textSize="@dimen/_15sdp"
+
+            />
+
+        <LinearLayout
+
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:weightSum="5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+
+                android:weightSum="3"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+
+                    android:gravity="center"
+                    android:layout_weight="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+
+                        android:textStyle="bold"
+                        android:textColor="@color/themeblack"
+                        android:fontFamily="@font/raleway_medium"
+                        android:textSize="@dimen/_13sdp"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="@dimen/_5sdp"
+                        android:text="Description :"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <EditText
+
+                        android:textCursorDrawable="@drawable/blue_cursor"
+                        android:backgroundTint="@color/bluetheme"
+                        android:paddingLeft="@dimen/_10sdp"
+                        android:inputType="textMultiLine"
+                        android:id="@+id/edtxt_pop_cart_description"
+                        android:textSize="@dimen/_11sdp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+
+                android:weightSum="3"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+
+                    android:gravity="center"
+                    android:layout_weight="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+
+
+                        android:gravity="center_vertical"
+                        android:paddingLeft="@dimen/_5sdp"
+                        android:textStyle="bold"
+                        android:textColor="@color/themeblack"
+                        android:fontFamily="@font/raleway_medium"
+                        android:textSize="@dimen/_13sdp"
+                        android:text="Quantity :"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <EditText
+
+                        android:textCursorDrawable="@drawable/blue_cursor"
+                        android:backgroundTint="@color/bluetheme"
+                        android:paddingLeft="@dimen/_10sdp"
+                        android:inputType="number"
+                        android:id="@+id/edtxt_pop_cart_quantity"
+                        android:textSize="@dimen/_11sdp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+
+                android:weightSum="3"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+
+                    android:gravity="center_vertical"
+                    android:layout_weight="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/raleway_medium"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="@dimen/_5sdp"
+                        android:text="Price ("
+                        android:textColor="@color/themeblack"
+                        android:textSize="@dimen/_13sdp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+
+                        android:background="@drawable/pound_black"
+                        android:layout_width="@dimen/_10sdp"
+                        android:layout_height="@dimen/_10sdp" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="58dp"
+                        android:fontFamily="@font/raleway_medium"
+                        android:gravity="center_vertical"
+                        android:text=") :"
+                        android:textColor="@color/themeblack"
+                        android:textSize="@dimen/_13sdp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <EditText
+
+                        android:textCursorDrawable="@drawable/blue_cursor"
+                        android:backgroundTint="@color/bluetheme"
+                        android:paddingLeft="@dimen/_10sdp"
+                        android:gravity="center_vertical"
+                        android:hint="(Optional)"
+                        android:inputType="numberDecimal"
+                        android:id="@+id/edtxt_pop_cart_price"
+                        android:textSize="@dimen/_11sdp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+
+                android:weightSum="3"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+
+                    android:gravity="center"
+                    android:layout_weight="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+
+                        android:textStyle="bold"
+                        android:textColor="@color/themeblack"
+                        android:fontFamily="@font/raleway_medium"
+                        android:textSize="@dimen/_13sdp"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="@dimen/_5sdp"
+                        android:text="Product Code :"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <EditText
+
+                        android:textCursorDrawable="@drawable/blue_cursor"
+                        android:backgroundTint="@color/bluetheme"
+                        android:paddingLeft="@dimen/_10sdp"
+                        android:gravity="center_vertical"
+                        android:hint="(Optional)"
+                        android:inputType="text"
+                        android:id="@+id/edtxt_pop_cart_product_code"
+                        android:textSize="@dimen/_11sdp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+            <LinearLayout
+
+
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Button
+
+                        android:layout_marginLeft="@dimen/_30sdp"
+                        android:layout_marginRight="@dimen/_30sdp"
+                        android:id="@+id/btn_close_cart_popup"
+                        android:fontFamily="@font/raleway_medium"
+                        android:textSize="@dimen/_14sdp"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:text="Close"
+                        android:background="@drawable/shape_rounded_green"
+                        android:layout_width="@dimen/_120sdp"
+                        android:layout_height="@dimen/_30sdp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Button
+
+                        android:layout_marginLeft="@dimen/_30sdp"
+                        android:layout_marginRight="@dimen/_30sdp"
+                       android:id="@+id/btn_add_cart_popup"
+                        android:fontFamily="@font/raleway_medium"
+                        android:textSize="@dimen/_14sdp"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:text="Add"
+                        android:background="@drawable/shape_rounded_green"
+                        android:layout_width="@dimen/_120sdp"
+                        android:layout_height="@dimen/_30sdp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

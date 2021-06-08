@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+
+    android:gravity="center_horizontal"
+    android:weightSum="5"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Search_empty">
+
+    <TextView
+
+        android:textColor="@color/themered"
+        android:layout_marginTop="@dimen/_50sdp"
+        android:fontFamily="@font/raleway_medium"
+        android:textSize="@dimen/_28sdp"
+        android:text="We're Sorry !!!! "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <View
+
+        android:layout_marginTop="@dimen/_5sdp"
+        android:background="@drawable/top_mar"
+        android:layout_width="@dimen/_220sdp"
+        android:layout_height="@dimen/_4sdp">
+
+    </View>
+
+    <TextView
+
+        android:textColor="@color/themeblack"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:fontFamily="@font/raleway_medium"
+        android:textSize="@dimen/_16sdp"
+        android:text="We Can't seem to find any Products "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+
+        android:textColor="@color/themeblack"
+        android:fontFamily="@font/raleway_medium"
+        android:textSize="@dimen/_16sdp"
+        android:text="that match your search "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <ImageView
+
+        android:layout_marginTop="@dimen/_25sdp"
+        android:background="@drawable/search_fire"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_120sdp" />
+
+    <TextView
+
+        android:textColor="@color/themeblack"
+        android:layout_marginTop="@dimen/_28sdp"
+        android:fontFamily="@font/raleway_medium"
+        android:textSize="@dimen/_16sdp"
+        android:text="Search Again "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    android:padding="@dimen/_20sdp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_80sdp">
+
+        <TextView
+
+            android:textColor="#333e48"
+            android:textStyle="bold"
+            android:fontFamily="@font/roboto_medium"
+            android:textSize="@dimen/_13sdp"
+            android:text="Company Name *"
+            android:padding="@dimen/_5sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+
+            android:layout_weight="1"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/shape_rounded_black"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp"
+            android:orientation="horizontal"
+            android:weightSum="4"
+            >
+
+            <EditText
+
+                android:id="@+id/cmpny_name"
+                android:paddingLeft="@dimen/_20sdp"
+                android:clickable="true"
+                android:focusableInTouchMode="true"
+                android:inputType="textEmailAddress"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3.8"
+                android:background="@null"
+                android:filterTouchesWhenObscured="false"
+                android:fontFamily="@font/roboto_medium"
+                android:text="Atradeya Busness"
+                android:includeFontPadding="false"
+                android:textColorHint="#333e48"
+                android:textSize="@dimen/_12sdp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_marginTop="@dimen/_10sdp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_80sdp">
+
+        <TextView
+
+            android:id="@+id/txt_address_type"
+            android:textColor="#333e48"
+            android:textStyle="bold"
+            android:fontFamily="@font/roboto_medium"
+            android:textSize="@dimen/_13sdp"
+            android:text="Billing Address *"
+            android:padding="@dimen/_5sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+
+            android:layout_weight="1"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/shape_rounded_black"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp"
+            android:orientation="horizontal"
+            android:weightSum="4"
+            >
+
+            <EditText
+
+                android:id="@+id/address"
+                android:paddingLeft="@dimen/_20sdp"
+                android:clickable="true"
+                android:focusableInTouchMode="true"
+                android:inputType="textEmailAddress"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3.8"
+                android:background="@null"
+                android:filterTouchesWhenObscured="false"
+                android:fontFamily="@font/roboto_medium"
+                android:text="42"
+                android:includeFontPadding="false"
+                android:textColorHint="#333e48"
+                android:textSize="@dimen/_12sdp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_marginTop="@dimen/_10sdp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_80sdp">
+
+        <TextView
+
+            android:textColor="#333e48"
+            android:textStyle="bold"
+            android:fontFamily="@font/roboto_medium"
+            android:textSize="@dimen/_13sdp"
+            android:text="Address *"
+            android:padding="@dimen/_5sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+
+            android:layout_weight="1"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/shape_rounded_black"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp"
+            android:orientation="horizontal"
+            android:weightSum="4"
+            >
+
+            <EditText
+
+                android:id="@+id/cmpny_address"
+                android:paddingLeft="@dimen/_20sdp"
+                android:clickable="true"
+                android:focusableInTouchMode="true"
+                android:inputType="textEmailAddress"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3.8"
+                android:background="@null"
+                android:filterTouchesWhenObscured="false"
+                android:fontFamily="@font/roboto_medium"
+                android:text="53, sector 5"
+                android:includeFontPadding="false"
+                android:textColorHint="#333e48"
+                android:textSize="@dimen/_12sdp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+
+        android:layout_marginTop="@dimen/_10sdp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_80sdp">
+
+        <TextView
+
+            android:textColor="#333e48"
+            android:textStyle="bold"
+            android:fontFamily="@font/roboto_medium"
+            android:textSize="@dimen/_13sdp"
+            android:text="City *"
+            android:padding="@dimen/_5sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+
+            android:layout_weight="1"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/shape_rounded_black"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp"
+            android:orientation="horizontal"
+            android:weightSum="4"
+            >
+
+            <EditText
+
+                android:id="@+id/cmpny_city"
+                android:paddingLeft="@dimen/_20sdp"
+                android:clickable="true"
+                android:focusableInTouchMode="true"
+                android:inputType="textEmailAddress"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3.8"
+                android:background="@null"
+                android:filterTouchesWhenObscured="false"
+                android:fontFamily="@font/roboto_medium"
+                android:text="dundee"
+                android:includeFontPadding="false"
+                android:textColorHint="#333e48"
+                android:textSize="@dimen/_12sdp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_marginTop="@dimen/_10sdp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_80sdp">
+
+        <TextView
+
+            android:textColor="#333e48"
+            android:textStyle="bold"
+            android:fontFamily="@font/roboto_medium"
+            android:textSize="@dimen/_13sdp"
+            android:text="PostCode *"
+            android:padding="@dimen/_5sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+
+            android:layout_weight="1"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/shape_rounded_black"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp"
+            android:orientation="horizontal"
+            android:weightSum="4"
+            >
+
+            <EditText
+
+                android:id="@+id/cmpny_postcode"
+                android:paddingLeft="@dimen/_20sdp"
+                android:clickable="true"
+                android:focusableInTouchMode="true"
+                android:inputType="textEmailAddress"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3.8"
+                android:background="@null"
+                android:filterTouchesWhenObscured="false"
+                android:fontFamily="@font/roboto_medium"
+                android:text="dd049h"
+                android:includeFontPadding="false"
+                android:textColorHint="#333e48"
+                android:textSize="@dimen/_12sdp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+
+        android:id="@+id/btn_save_address"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_below="@id/layout_forgot_password"
+        android:layout_marginTop="@dimen/_40sdp"
+        android:background="@drawable/shape"
+        android:textAllCaps="false"
+        android:text="Save Address"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/_14sdp"
+        android:fontFamily="@font/roboto_medium"
+        />
+
+
+</LinearLayout>

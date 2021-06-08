@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    android:orientation="vertical"
+    android:weightSum="10"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ExpandableListView
+            android:id="@+id/list_view_expandable"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </ExpandableListView>
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:gravity="center"
+        android:layout_weight="9"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+
+            android:id="@+id/btn_apply_filter"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:fontFamily="@font/raleway_medium"
+            android:textSize="@dimen/_13sdp"
+            android:text="Apply"
+            android:background="@drawable/shape_rounded_green"
+            android:layout_width="@dimen/_130sdp"
+            android:layout_height="@dimen/_35sdp" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

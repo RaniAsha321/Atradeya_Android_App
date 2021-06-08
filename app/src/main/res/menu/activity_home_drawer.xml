@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_categories"
+            android:icon="@drawable/catagories_themered"
+            android:title="@string/menu_categories"
+
+            />
+
+        <item
+            android:id="@+id/nav_wholesellers"
+            android:icon="@drawable/wholeseller72"
+            android:title="@string/menu_wholeseller" />
+
+        <item
+            android:id="@+id/nav_order"
+            android:icon="@drawable/order_icon72"
+            android:title="@string/menu_orders" />
+        <item
+            android:id="@+id/nav_project_details"
+            android:icon="@drawable/project_icon32"
+
+            android:title="@string/menu_project_details" />
+        <item
+            android:id="@+id/nav_account_detail"
+            android:icon="@drawable/account_details_icon72"
+            android:title="@string/menu_account_details" />
+
+        <item
+            android:id="@+id/nav_catalogue"
+            android:icon="@drawable/catalogues_icon72"
+            android:title="@string/menu_catalogues" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout_icon72"
+            android:title="Logout" />
+
+        <item
+            android:id="@+id/nav_login"
+            android:icon="@drawable/logout_icon72"
+            android:title="Login" />
+
+
+        <item
+            android:id="@+id/nav_footer_1"
+            android:title="" />
+        <item
+            android:id="@+id/nav_footer_2"
+            android:title="" />
+        <item
+            android:id="@+id/nav_footer_3"
+            android:title="" />
+
+    </group>
+  <!--  <group
+        android:id="@+id/nav_footer">
+        <item
+            android:id="@+id/nav_log_version"
+            app:actionLayout="@layout/footer_navigation_menu"
+            android:title="" />
+    </group>-->
+
+</menu>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+
+        android:background="#ffffff"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:weightSum="7">
+
+        <LinearLayout
+            android:layout_weight="3.1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+
+                android:id="@+id/my_order_back_btn"
+                android:layout_marginLeft="8dp"
+                android:layout_gravity="center"
+                android:background="@drawable/back_icon"
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_weight="0.8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            >
+
+            <ImageView
+
+                android:background="@drawable/logo_ledlamp"
+                android:layout_width="120dp"
+                android:layout_height="30dp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+
+            android:layout_weight="3.1"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+
+                android:layout_marginLeft="7dp"
+                android:layout_gravity="center"
+                android:background="@drawable/add_cart_icon72"
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+
+        android:gravity="center"
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        >
+
+        <LinearLayout
+
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/shape_corner_rounded"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:weightSum="4">
+
+            <EditText
+
+                android:fontFamily="@font/roboto_medium"
+                android:layout_weight="3.8"
+                android:paddingLeft="2dp"
+                android:textSize="14sp"
+                android:id="@+id/Edtxt_Search_my_order_screen"
+                android:hint="Search main category"
+                android:background="@null"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="5dp"
+                android:layout_width="260dp"
+                android:layout_height="match_parent" />
+
+            <ImageView
+
+                android:layout_weight="0.2"
+                android:id="@+id/Img_Search_home_categories"
+                android:layout_marginTop="8dp"
+                android:layout_gravity="center"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/search_icon72"
+                android:layout_marginBottom="10dp"
+                android:layout_width="15dp"
+                android:layout_height="15dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.recyclerview.widget.RecyclerView
+
+                android:background="#f7f7f7"
+                android:id="@+id/recyclerview_my_order_screen"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+

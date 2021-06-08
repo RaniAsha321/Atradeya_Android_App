@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    android:padding="@dimen/_10sdp"
+    android:weightSum="5"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_200sdp">
+
+   <LinearLayout
+
+       android:orientation="horizontal"
+       android:weightSum="5"
+       android:layout_weight="4"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+       <LinearLayout
+
+           android:gravity="center"
+           android:layout_weight="1"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+
+           <TextView
+
+               android:fontFamily="@font/raleway"
+               android:textSize="@dimen/_11sdp"
+               android:textColor="#000000"
+               android:text="SIGNIN/SIGNUP YOUR ACCOUNT TO PROCEED"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content" />
+
+       </LinearLayout>
+
+       <LinearLayout
+
+           android:id="@+id/popup_register_cross"
+           android:gravity="right"
+           android:layout_weight="4"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+
+           <ImageView
+
+               android:background="@drawable/ic_icon_popup_cross"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content" />
+
+       </LinearLayout>
+
+   </LinearLayout>
+
+    <View
+
+        android:background="@color/themered"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp">
+
+    </View>
+
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:weightSum="2"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+                <LinearLayout
+
+                    android:id="@+id/popup_signin"
+                    android:orientation="horizontal"
+                    android:weightSum="5"
+                    android:background="@drawable/shape"
+                    android:layout_margin="@dimen/_20sdp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+
+                        android:gravity="center"
+                        android:layout_weight="4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+
+                            android:background="@drawable/ic_sign_in_white"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+
+                    <View
+
+                        android:layout_marginBottom="@dimen/_5sdp"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:background="@color/white"
+                        android:layout_width="@dimen/_1sdp"
+                        android:layout_height="wrap_content">
+
+                    </View>
+
+                    <LinearLayout
+
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+
+                            android:textStyle="bold"
+                            android:fontFamily="@font/raleway"
+                            android:textSize="@dimen/_13sdp"
+                            android:textColor="@color/white"
+                            android:text="SIGN IN"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+
+                android:id="@+id/popup_signup"
+                android:weightSum="5"
+                android:background="@drawable/shape_corner_rounded"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginRight="@dimen/_20sdp"
+                android:layout_marginBottom="@dimen/_40sdp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+
+                    android:gravity="center"
+                    android:layout_weight="4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+
+                        android:background="@drawable/ic_red_signup"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+                <View
+
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:background="@color/themered"
+                    android:layout_width="@dimen/_1sdp"
+                    android:layout_height="wrap_content">
+
+                </View>
+
+                <LinearLayout
+
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+
+                        android:textStyle="bold"
+                        android:fontFamily="@font/raleway"
+                        android:textSize="@dimen/_13sdp"
+                        android:textColor="@color/themered"
+                        android:text="SIGN UP"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    android:alpha="0.7"
+    android:weightSum="11"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <View
+
+        android:background="@color/themered"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp">
+
+    </View>
+
+
+    <LinearLayout
+
+        android:background="@color/grey"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.8">
+
+          <androidx.recyclerview.widget.RecyclerView
+
+              android:id="@+id/recyclerview_filter_type"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+          </androidx.recyclerview.widget.RecyclerView>
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:background="@color/white"
+            android:layout_weight="1.2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.recyclerview.widget.RecyclerView
+
+                android:id="@+id/recyclerview_filter_value"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </androidx.recyclerview.widget.RecyclerView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+
+        android:background="@color/themered"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp">
+
+    </View>
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_weight="10"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+
+            android:paddingLeft="@dimen/_15sdp"
+            android:orientation="vertical"
+            android:weightSum="2"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+
+
+                android:gravity="bottom"
+                android:layout_weight="0.9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+
+                    android:id="@+id/txtvw_home_products_size"
+                    android:paddingLeft="@dimen/_5sdp"
+                    android:textColor="@color/themered"
+                    android:fontFamily="@font/raleway_medium"
+                    android:textSize="@dimen/_13sdp"
+                    android:text="12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_weight="1.1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+
+
+                    android:paddingRight="@dimen/_5sdp"
+                    android:textColor="@color/themeblack"
+                    android:fontFamily="@font/raleway_medium"
+                    android:textSize="@dimen/_9sdp"
+                    android:text="products found"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <Button
+
+                android:id="@+id/btn_apply_filter"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:fontFamily="@font/raleway_medium"
+                android:textSize="@dimen/_13sdp"
+                android:text="Apply"
+                android:background="@drawable/shape_rounded_green"
+                android:layout_width="@dimen/_130sdp"
+                android:layout_height="@dimen/_35sdp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

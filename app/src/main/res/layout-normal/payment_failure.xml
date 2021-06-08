@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+
+    android:layout_margin="@dimen/_5sdp"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:gravity="center_horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NoAwaiting_Approvals">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+
+                android:layout_marginTop="@dimen/_40sdp"
+                android:textColor="@color/bluetheme"
+                android:fontFamily="@font/raleway_medium"
+                android:textSize="@dimen/_28sdp"
+                android:text="We're Sorry !!!! "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <View
+
+                android:layout_marginBottom="@dimen/_40sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:background="@drawable/top_mar"
+                android:layout_width="@dimen/_220sdp"
+                android:layout_height="@dimen/_4sdp">
+
+            </View>
+
+
+            <ImageView
+
+                android:background="@drawable/icon72"
+                android:layout_width="@dimen/_120sdp"
+                android:layout_height="@dimen/_120sdp" />
+
+
+            <TextView
+
+
+                android:layout_marginTop="@dimen/_40sdp"
+                android:textColor="@color/themeblack"
+                android:fontFamily="@font/raleway_medium"
+                android:textSize="@dimen/_28sdp"
+                android:text="Payment Failure "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+
+                android:gravity="center"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:textColor="@color/themeblack"
+                android:fontFamily="@font/raleway_medium"
+                android:textSize="@dimen/_19sdp"
+                android:text="Click on Retry button for retry payment Process"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+
+            <Button
+
+
+                android:id="@+id/btn_failure"
+                android:paddingRight="@dimen/_10sdp"
+                android:paddingLeft="@dimen/_10sdp"
+                android:textAllCaps="false"
+                android:fontFamily="@font/raleway_medium"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/_14sdp"
+                android:text="Retry Payment"
+                android:background="@drawable/shape_rounded_green"
+                android:layout_marginTop="@dimen/_50sdp"
+                android:layout_gravity="center"
+                android:layout_width="@dimen/_200sdp"
+                android:layout_height="@dimen/_35sdp"
+                />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

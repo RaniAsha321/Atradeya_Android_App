@@ -1,0 +1,172 @@
+
+<LinearLayout
+
+    android:layout_marginRight="@dimen/_5sdp"
+    android:layout_marginLeft="@dimen/_5sdp"
+    android:id="@+id/offer_layout"
+    android:weightSum="5.8"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:id="@+id/layout_popup_upper"
+        android:alpha="0.8"
+        android:background="@color/themeblack"
+        android:layout_weight="1.9"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:weightSum="8"
+        android:orientation="horizontal"
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+
+            android:background="@color/themeblack"
+            android:alpha="0.8"
+            android:layout_weight="3.8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_weight="0.4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+
+                android:weightSum="5"
+                android:alpha="1.8"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="8dp"
+                android:background="@color/white"
+                >
+
+                <LinearLayout
+
+
+                    android:weightSum="2"
+                    android:layout_weight="3.2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RadioGroup
+                        android:layout_margin="@dimen/activity_horizontal_margin"
+                        android:id="@+id/radioGroup"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <RadioButton
+                            android:id="@+id/radioButton1"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Default Delivery Address"
+                            android:textSize="18sp"/>
+
+                        <RadioButton
+                            android:id="@+id/radioButton2"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Custom Address"
+                            android:textSize="18sp"/>
+
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+                <LinearLayout
+
+
+                    android:orientation="vertical"
+                    android:layout_weight="1.8"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+
+                        android:layout_marginRight="@dimen/_5sdp"
+                        android:layout_marginLeft="@dimen/_5sdp"
+                        android:background="@drawable/shape_rectangle_round_blue"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <EditText
+
+                            android:id="@+id/custm_address"
+                            android:gravity="top"
+                            android:hint="Enter Address + City + Postcode"
+                            android:textSize="@dimen/_9sdp"
+                            android:layout_margin="@dimen/_10sdp"
+                            android:background="@null"
+                            android:inputType="textPostalAddress"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_60sdp" />
+
+                    </LinearLayout>
+
+                    <Button
+
+                        android:id="@+id/btn_custom_address"
+                        android:fontFamily="@font/raleway_medium"
+                        android:textColor="@color/white"
+                        android:text="Submit"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:background="@drawable/shape"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_40sdp" />
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:background="@color/themeblack"
+            android:alpha="0.8"
+            android:layout_weight="3.8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+
+        android:id="@+id/layout_popup_bottom"
+        android:orientation="horizontal"
+        android:alpha="0.8"
+        android:background="@color/themeblack"
+        android:layout_weight="1.9"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1096217710632",
+    "firebase_url": "https://atradeya-app-notification.firebaseio.com",
+    "project_id": "atradeya-app-notification",
+    "storage_bucket": "atradeya-app-notification.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1096217710632:android:be63709aa4e4dcac51651d",
+        "android_client_info": {
+          "package_name": "com.atradeya.asharani"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1096217710632-gdk3h24sfmbh8blulh6o6c5367idhd7c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.atradeya.asharani",
+            "certificate_hash": "f05dc5093785a9ed1ff062b6e801ee9a28a6b290"
+          }
+        },
+        {
+          "client_id": "1096217710632-lpbt4esjm6dfdfrtopdoibuc4iet9gg3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoumTF3cp9Mg5pPRpiUwNNhlXZRcRcLR0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1096217710632-lpbt4esjm6dfdfrtopdoibuc4iet9gg3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

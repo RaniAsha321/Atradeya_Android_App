@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    android:paddingTop="@dimen/_10sdp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_drawer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:orientation="vertical"
+    >
+
+    <include layout="@layout/nav_header_home" />
+
+
+
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+
+            android:id="@+id/layout_nav_cat"
+            android:weightSum="5"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp">
+
+            <LinearLayout
+
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+
+                    android:id="@+id/txtvw_nav_cat"
+                    android:paddingLeft="@dimen/_20sdp"
+                    android:textSize="@dimen/_11sdp"
+                    android:fontFamily="@font/raleway_medium"
+                    android:gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:onClick="onClick"
+                    android:text="@string/menu_categories"
+                    android:textColor="@color/themeblack" />
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:gravity="center"
+                android:layout_weight="4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+
+                    android:id="@+id/imgvw_nav_cat"
+                    android:background="@drawable/catagories_black"
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:id="@+id/layout_nav_wholeseller"
+            android:weightSum="5"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp">
+
+            <LinearLayout
+
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+
+                    android:id="@+id/txtvw_nav_wholeseller"
+                    android:paddingLeft="@dimen/_20sdp"
+                    android:textSize="@dimen/_11sdp"
+                    android:fontFamily="@font/raleway_medium"
+                    android:gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:onClick="onClick"
+                    android:text="@string/menu_wholeseller"
+                    android:textColor="@color/themeblack" />
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:gravity="center"
+                android:layout_weight="4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+
+                    android:id="@+id/imgvw_nav_wholeseller"
+                    android:background="@drawable/wholeseller_black"
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:id="@+id/layout_nav_order"
+            android:weightSum="5"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp">
+
+            <LinearLayout
+
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+
+                    android:id="@+id/txtvw_nav_order"
+                    android:paddingLeft="@dimen/_20sdp"
+                    android:textSize="@dimen/_11sdp"
+                    android:fontFamily="@font/raleway_medium"
+                    android:gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:onClick="onClick"
+                    android:text="@string/menu_orders"
+                    android:textColor="@color/themeblack" />
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:gravity="center"
+                android:layout_weight="4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+
+                    android:id="@+id/imgvw_nav_order"
+                    android:background="@drawable/order_black"
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:id="@+id/layout_nav_account"
+            android:weightSum="5"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp">
+
+            <LinearLayout
+
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+
+                    android:id="@+id/txtvw_nav_account"
+                    android:paddingLeft="@dimen/_20sdp"
+                    android:textSize="@dimen/_11sdp"
+                    android:fontFamily="@font/raleway_medium"
+                    android:gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:onClick="onClick"
+                    android:text="@string/menu_account_details"
+                    android:textColor="@color/themeblack" />
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:gravity="center"
+                android:layout_weight="4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+
+                    android:id="@+id/imgvw_nav_account"
+                    android:background="@drawable/account_details_black"
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:id="@+id/layout_nav_catalogue"
+            android:weightSum="5"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp">
+
+            <LinearLayout
+
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+
+                    android:id="@+id/txtvw_nav_catalogue"
+                    android:paddingLeft="@dimen/_20sdp"
+                    android:textSize="@dimen/_11sdp"
+                    android:fontFamily="@font/raleway_medium"
+                    android:gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:onClick="onClick"
+                    android:text="@string/menu_catalogues"
+                    android:textColor="@color/themeblack" />
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:gravity="center"
+                android:layout_weight="4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+
+                    android:id="@+id/imgvw_nav_catalogue"
+                    android:background="@drawable/catalogues_black"
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:id="@+id/layout_nav_address"
+            android:weightSum="5"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp">
+
+            <LinearLayout
+
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+
+
+                    android:id="@+id/txtvw_nav_address"
+                    android:paddingLeft="@dimen/_20sdp"
+                    android:textSize="@dimen/_11sdp"
+                    android:fontFamily="@font/raleway_medium"
+                    android:gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:onClick="onClick"
+                    android:text="Address"
+                    android:textColor="@color/themeblack" />
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:gravity="center"
+                android:layout_weight="4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+
+                    android:id="@+id/imgvw_nav_address"
+                    android:background="@drawable/address_black"
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+    <LinearLayout
+
+            android:id="@+id/layout_nav_login"
+            android:weightSum="5"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp">
+
+            <LinearLayout
+
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+
+                    android:id="@+id/txtvw_nav_login"
+                    android:paddingLeft="@dimen/_20sdp"
+                    android:textSize="@dimen/_11sdp"
+                    android:fontFamily="@font/raleway_medium"
+                    android:gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:onClick="onClick"
+                    android:text="Login"
+                    android:textColor="@color/themeblack" />
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:gravity="center"
+                android:layout_weight="4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+
+                    android:id="@+id/imgvw_nav_login"
+                    android:background="@drawable/logout_black"
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:id="@+id/layout_nav_logout"
+            android:weightSum="5"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp">
+
+            <LinearLayout
+
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+
+                    android:id="@+id/txtvw_nav_logout"
+                    android:paddingLeft="@dimen/_20sdp"
+                    android:textSize="@dimen/_11sdp"
+                    android:fontFamily="@font/raleway_medium"
+                    android:gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:onClick="onClick"
+                    android:text="Logout"
+                    android:textColor="@color/themeblack" />
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:gravity="center"
+                android:layout_weight="4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+
+                    android:id="@+id/imgvw_nav_logout"
+                    android:background="@drawable/logout_black"
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <View
+
+            android:background="@color/themered"
+            android:layout_width="match_parent"
+            android:layout_height="1dp">
+
+        </View>
+
+
+
+        <LinearLayout
+
+            android:paddingTop="@dimen/_5sdp"
+            android:paddingBottom="@dimen/_5sdp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+
+                android:textColor="@color/themeblack"
+                android:fontFamily="@font/raleway"
+                android:textSize="@dimen/_9sdp"
+                android:id="@+id/textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="powered by pick my order v." />
+
+            <TextView
+
+                android:textColor="@color/themeblack"
+                android:fontFamily="@font/raleway_medium"
+                android:textAllCaps="false"
+                android:textSize="@dimen/_9sdp"
+                android:id="@+id/textview_version"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="1.0" />
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

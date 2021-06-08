@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    android:background="#ffffff"
+    android:weightSum="8"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+
+        android:layout_margin="@dimen/_10sdp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:layout_weight="3.5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+
+            android:textColor="#333e48"
+            android:fontFamily="@font/roboto_medium"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/_15sdp"
+            android:text="Please Select!"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+           <androidx.recyclerview.widget.RecyclerView
+
+               android:id="@+id/recyclerview_update"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent">
+
+           </androidx.recyclerview.widget.RecyclerView>
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_marginTop="@dimen/_10sdp"
+        android:orientation="horizontal"
+        android:weightSum="4"
+        android:layout_weight="3.5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:gravity="left"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+
+                android:id="@+id/txt_update_cancel"
+                android:textColor="@color/bluetheme"
+                android:fontFamily="@font/roboto_medium"
+                android:gravity="center_vertical"
+                android:textSize="@dimen/_15sdp"
+                android:text="Cancel"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:gravity="right"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+
+
+                android:id="@+id/txt_update_submit"
+                android:textColor="@color/bluetheme"
+                android:fontFamily="@font/roboto_medium"
+                android:gravity="center_vertical"
+                android:textSize="@dimen/_15sdp"
+                android:text="Submit"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

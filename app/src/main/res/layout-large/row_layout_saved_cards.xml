@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#f7f7f7"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:weightSum="11"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="10dp"
+                android:visibility="visible"
+                android:id="@+id/cardview_card"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:src="@drawable/credit_card1"
+                        android:visibility="visible"
+                        android:id="@+id/payment_image" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:drawablePadding="10dp"
+                        android:id="@+id/tv_credit_card_text"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="5dp"
+                        android:layout_weight="1"
+                        android:text="Loading..."
+                        android:layout_toLeftOf="@+id/imageView"
+                        android:layout_toRightOf="@+id/payment_image"
+                        android:layout_toEndOf="@+id/payment_image" />
+                    <ImageView
+
+                        android:layout_gravity="center_vertical"
+                        android:src="@mipmap/ic_tick_blue"
+                        android:layout_width="@dimen/_15sdp"
+                        android:layout_height="@dimen/_15sdp"
+                        android:visibility="gone"
+                        android:id="@+id/imageView_select_card" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:id="@+id/layout_remove_card"
+            android:background="@color/white"
+            android:gravity="center"
+            android:layout_weight="10"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+
+                android:layout_gravity="center"
+                android:background="@drawable/bin_red_pmo"
+                android:layout_width="@dimen/_11sdp"
+                android:layout_height="@dimen/_14sdp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <View
+
+            android:background="@drawable/top_mar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_2sdp">
+        </View>
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

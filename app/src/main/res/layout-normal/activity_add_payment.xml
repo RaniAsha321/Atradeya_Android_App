@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+
+    android:id="@+id/mainlayout"
+    android:weightSum="9"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:layout_weight="8.5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_29sdp"
+            android:fontFamily="@font/raleway_medium"
+            android:gravity="center"
+            android:text="Card Details"
+            android:textColor="#333e48"
+            android:textSize="@dimen/_19sdp"
+            android:textStyle="bold" />
+
+        <View
+
+            android:layout_marginTop="@dimen/_5sdp"
+            android:background="@drawable/top_mar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_2sdp">
+        </View>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:background="#f7f7f7"
+        android:weightSum="9"
+        android:orientation="vertical"
+        android:layout_weight="0.5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+
+            android:orientation="horizontal"
+            android:weightSum="3"
+            android:gravity="center"
+            android:layout_weight="8.5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+
+                android:gravity="center"
+                android:layout_weight="0.8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+
+                    android:layout_marginLeft="@dimen/_20sdp"
+                    android:textColor="#333e48"
+                    android:fontFamily="@font/roboto_medium"
+                    android:gravity="center_vertical"
+                    android:textSize="@dimen/_15sdp"
+                    android:text="Total:"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:gravity="end"
+                android:layout_weight="1.3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <ImageView
+
+                    android:layout_gravity="center"
+                    android:background="@drawable/pound"
+                    android:layout_width="@dimen/_15sdp"
+                    android:layout_height="@dimen/_15sdp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_weight="0.9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <TextView
+
+                    android:text="2.22"
+                    android:id="@+id/txtvw_total_payment"
+                    android:gravity="center_vertical"
+                    android:layout_marginRight="@dimen/_20sdp"
+                    android:textColor="@color/themered"
+                    android:fontFamily="@font/roboto_medium"
+                    android:paddingLeft="@dimen/_2sdp"
+                    android:textSize="@dimen/_15sdp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:weightSum="9"
+            android:orientation="vertical"
+            android:layout_weight="0.5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <RelativeLayout
+
+            android:layout_marginTop="@dimen/_5sdp"
+            android:background="@drawable/shape_corner_rounded_blue_card"
+            android:padding="@dimen/_5sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:layout_marginTop="@dimen/_25sdp"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_75sdp"
+                android:id="@+id/demo"
+                android:alpha="0.5"
+                android:src="@drawable/card_logo"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+
+
+            <TextView
+
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:textColor="@color/themeblack"
+                android:fontFamily="@font/roboto_medium"
+                android:layout_below="@+id/demo"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:text="@string/card_text"
+                android:textSize="@dimen/_13sdp"
+                android:id="@+id/txtvw_card"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp" />
+
+
+            <com.stripe.android.view.CardInputWidget
+
+                android:paddingLeft="@dimen/_5sdp"
+                android:background="@drawable/shape_rectangle"
+                android:layout_marginBottom="@dimen/_15sdp"
+                android:layout_marginRight="@dimen/_5sdp"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:id="@+id/card_input_widget"
+                android:layout_width="match_parent"
+                android:layout_below="@+id/txtvw_card"
+                android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+
+            <CheckBox
+
+                android:layout_marginTop="@dimen/_10sdp"
+                android:textSize="@dimen/_12sdp"
+                android:fontFamily="@font/roboto_medium"
+                android:theme="@style/MyCheckBoxStyle"
+                android:id="@+id/checkBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Save Card Details"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+
+            android:textSize="@dimen/_14sdp"
+            android:id="@+id/final_payment"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/shape_rounded_green"
+            android:layout_below="@+id/card_input_widget"
+            android:text="Pay"/>
+
+            <ImageView
+
+                android:background="@drawable/card_logo_line"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_50sdp" />
+
+            <Button
+
+                android:visibility="gone"
+                android:textSize="@dimen/_14sdp"
+                android:id="@+id/saved_cards"
+                android:layout_height="@dimen/_35sdp"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/shape_rounded_green"
+                android:layout_below="@+id/card_input_widget"
+                android:text="SAVED CARDS"/>
+
+
+            <androidx.recyclerview.widget.RecyclerView
+
+                android:visibility="visible"
+                android:id="@+id/recyclerview_add_payment"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </androidx.recyclerview.widget.RecyclerView>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

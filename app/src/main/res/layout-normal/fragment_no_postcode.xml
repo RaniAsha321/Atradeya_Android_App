@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+
+    android:layout_margin="@dimen/_10sdp"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:gravity="center_horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NoCatelogues">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+   <LinearLayout
+
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+    <TextView
+
+        android:layout_marginTop="@dimen/_40sdp"
+        android:textColor="@color/bluetheme"
+        android:fontFamily="@font/raleway_medium"
+        android:textSize="@dimen/_28sdp"
+        android:text="We're Sorry !!!! "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <View
+
+        android:layout_marginBottom="@dimen/_40sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:background="@drawable/top_mar"
+        android:layout_width="@dimen/_220sdp"
+        android:layout_height="@dimen/_4sdp">
+
+    </View>
+
+
+    <ImageView
+
+        android:background="@drawable/invalid"
+        android:layout_width="@dimen/_120sdp"
+        android:layout_height="@dimen/_120sdp" />
+
+
+    <TextView
+
+        android:layout_marginTop="@dimen/_40sdp"
+        android:textColor="@color/themeblack"
+        android:fontFamily="@font/raleway_medium"
+        android:textSize="@dimen/_16sdp"
+        android:text="We Can't seem to find any Wholesellers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+       <TextView
+
+           android:layout_marginTop="@dimen/_10sdp"
+           android:textColor="@color/themeblack"
+           android:fontFamily="@font/raleway_medium"
+           android:textSize="@dimen/_16sdp"
+           android:text="Click to find All Wholesellers"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" />
+
+    <Button
+
+        android:id="@+id/btn_search_all_wholesellers"
+        android:background="@drawable/shape_rounded_green"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/raleway_medium"
+        android:textSize="@dimen/_16sdp"
+        android:text="Search "
+        android:layout_width="@dimen/_140sdp"
+        android:layout_height="@dimen/_35sdp" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>

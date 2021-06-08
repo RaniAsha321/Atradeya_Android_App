@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+
+    android:weightSum="5"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <LinearLayout
+
+        android:layout_weight="4.6"
+        android:weightSum="2"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:orientation="horizontal"
+            android:weightSum="7">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3.1"
+                android:gravity="center">
+
+                <ImageView
+
+                    android:visibility="gone"
+                    android:id="@+id/back"
+                    android:layout_width="25dp"
+                    android:layout_height="@dimen/_18sdp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/back_icon" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.8"
+                android:gravity="center">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_30sdp"
+                    android:fontFamily="@font/raleway_medium"
+                    android:gravity="center"
+                    android:text="Account Details"
+                    android:textColor="#333e48"
+                    android:textSize="@dimen/_19sdp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3.1"
+                android:gravity="center">
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_weight="0.4"
+        android:weightSum="6"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+
+        android:layout_weight="2.5"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+
+
+            <LinearLayout
+
+                android:visibility="gone"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <ImageView
+
+                    android:background="@drawable/newlogo"
+                    android:layout_gravity="center"
+                    android:layout_width="@dimen/_200sdp"
+                    android:layout_height="@dimen/_40sdp"
+                    />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+
+        android:layout_weight="0.9"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <View
+
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_20sdp"
+            android:background="@drawable/top_mar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1sdp">
+
+        </View>
+
+        <LinearLayout
+
+            android:id="@+id/layout_account_Business_name"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3.2">
+
+                <ImageView
+
+                    android:layout_width="@dimen/_14sdp"
+                    android:layout_height="@dimen/_14sdp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/_20sdp"
+                    android:background="@drawable/business_icon" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.8">
+
+
+                <TextView
+
+                    android:text="Business Name"
+                    android:id="@+id/txt_business_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/raleway_medium"
+                    android:gravity="center_vertical"
+                    android:textColor="#333e48"
+                    android:textSize="@dimen/_15sdp" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3.2">
+
+                <ImageView
+
+                    android:layout_width="@dimen/_14sdp"
+                    android:layout_height="@dimen/_14sdp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/_20sdp"
+                    android:background="@drawable/cart" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.8">
+
+
+                <TextView
+
+                    android:text="User Name"
+                    android:id="@+id/txt_username"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/raleway_medium"
+                    android:gravity="center_vertical"
+                    android:textColor="#333e48"
+                    android:textSize="@dimen/_15sdp" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3.2">
+
+                <ImageView
+
+                    android:layout_width="@dimen/_14sdp"
+                    android:layout_height="@dimen/_14sdp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/_20sdp"
+                    android:background="@drawable/mail" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.8">
+
+
+                <TextView
+
+                    android:text="Email Address"
+                    android:id="@+id/txt_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/raleway_medium"
+                    android:gravity="center_vertical"
+                    android:textColor="#333e48"
+                    android:textSize="@dimen/_15sdp" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3.2">
+
+                <ImageView
+
+                    android:layout_marginLeft="@dimen/_20sdp"
+                    android:layout_width="@dimen/_14sdp"
+                    android:layout_height="@dimen/_14sdp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/lock" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.8">
+
+
+                <TextView
+
+                    android:id="@+id/txt_change_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/raleway_medium"
+                    android:gravity="center_vertical"
+                    android:text="Change Password"
+                    android:textColor="#333e48"
+                    android:textSize="@dimen/_15sdp" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+
+
+            android:id="@+id/layout_account_billing_Details"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3.2">
+
+                <ImageView
+
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_18sdp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/_20sdp"
+                    android:background="@drawable/billing_icon" />
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:id="@+id/layout_account_inner_billing_details"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.8">
+
+
+                <TextView
+
+                    android:text="Billing Details"
+                    android:id="@+id/txt_billing_details"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/raleway_medium"
+                    android:gravity="center_vertical"
+                    android:textColor="#333e48"
+                    android:textSize="@dimen/_15sdp" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+
+            android:id="@+id/layout_account_Default_Delivery_address"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3.2">
+
+                <ImageView
+
+                    android:layout_width="@dimen/_18sdp"
+                    android:layout_height="@dimen/_14sdp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/_20sdp"
+                    android:background="@drawable/shipping_truck" />
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:id="@+id/layout_account_inner_delivery_details"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.8">
+
+
+                <TextView
+
+                    android:text="Default Delivery Address"
+                    android:id="@+id/txt_default_delivery_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/raleway_medium"
+                    android:gravity="center_vertical"
+                    android:textColor="#333e48"
+                    android:textSize="@dimen/_15sdp" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+
+            android:id="@+id/layout_account_add_card"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3.2">
+
+                <ImageView
+
+                    android:layout_width="@dimen/_18sdp"
+                    android:layout_height="@dimen/_18sdp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/_20sdp"
+                    android:background="@drawable/card" />
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:id="@+id/layout_Add_Card"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.8">
+
+
+                <TextView
+
+                    android:text="Add Card"
+                    android:id="@+id/txt_add_card"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/raleway_medium"
+                    android:gravity="center_vertical"
+                    android:textColor="#333e48"
+                    android:textSize="@dimen/_15sdp" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:gravity="center"
+        android:layout_weight="2.6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <View
+
+            android:layout_marginTop="@dimen/_20sdp"
+            android:background="@drawable/shape_corner_rounded_solid_black"
+            android:layout_width="@dimen/_120sdp"
+            android:layout_height="@dimen/_4sdp">
+
+        </View>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+    </LinearLayout>

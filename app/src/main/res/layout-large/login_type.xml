@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:weightSum="10"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+
+        android:gravity="center_horizontal"
+        android:layout_weight="3.6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+
+            android:layout_width="@dimen/_250sdp"
+            android:layout_height="@dimen/_80sdp"
+            android:layout_gravity="bottom"
+            android:background="@drawable/newlogo" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_weight="3.2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+
+            android:gravity="center"
+            android:paddingLeft="@dimen/_15sdp"
+            android:textSize="@dimen/_30sdp"
+            android:textColor=" #3A3A3A"
+            android:fontFamily="@font/roboto_medium"
+            android:text="Welcome to the"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+
+            android:layout_marginBottom="@dimen/_80sdp"
+            android:gravity="center"
+            android:paddingLeft="@dimen/_15sdp"
+            android:textSize="@dimen/_30sdp"
+            android:textColor=" #3A3A3A"
+            android:fontFamily="@font/roboto_medium"
+            android:text="Atradeya App"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_marginTop="@dimen/_80sdp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:weightSum="5"
+        android:orientation="vertical"
+        android:layout_weight="3.2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+
+
+            android:gravity="center"
+            android:layout_weight="1.5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <Button
+
+                android:gravity="center"
+                android:id="@+id/btn_login_type_guest"
+                android:layout_width="@dimen/_280sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:background="@drawable/shape"
+                android:text="Explore As Guest"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/_13sdp"
+                android:fontFamily="@font/roboto_medium"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:gravity="center"
+            android:layout_weight="2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+
+                android:gravity="center"
+                android:textSize="@dimen/_14sdp"
+                android:textColor="@color/themered"
+                android:fontFamily="@font/roboto_medium"
+                android:text="OR"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_weight="1.5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+
+                    android:id="@+id/btn_login_type_login"
+                    android:gravity="center"
+                    android:fontFamily="@font/roboto_medium"
+                    android:text="SIGN IN"
+                    android:textColor="@color/themered"
+                    android:textSize="@dimen/_13sdp"
+                    android:background="@drawable/shape_corner_rounded"
+                    android:layout_width="@dimen/_130sdp"
+                    android:layout_height="@dimen/_40sdp">
+
+                </Button>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+
+                    android:gravity="center"
+                    android:id="@+id/btn_login_type_signup"
+                    android:fontFamily="@font/roboto_medium"
+                    android:text="SIGN UP"
+                    android:textColor="@color/themered"
+                    android:textSize="@dimen/_13sdp"
+                    android:background="@drawable/shape_corner_rounded"
+                    android:layout_width="@dimen/_130sdp"
+                    android:layout_height="@dimen/_40sdp">
+
+
+                </Button>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

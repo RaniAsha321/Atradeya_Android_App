@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    android:paddingRight="@dimen/_10sdp"
+    android:paddingLeft="@dimen/_10sdp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+
+        android:id="@+id/layout_purchase_order"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp">
+
+        <TextView
+
+            android:textStyle="bold"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:textColor="@color/themeblack"
+            android:fontFamily="@font/raleway_medium"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/_16sdp"
+            android:text="Purchase Order Details"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_38sdp" />
+
+
+
+    </LinearLayout>
+
+
+        <ImageView
+
+            android:background="@drawable/ic_line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+
+
+
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp">
+
+        <TextView
+
+            android:id="@+id/txtvw_more_supplier"
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:textColor="@color/themeblack"
+            android:fontFamily="@font/raleway_medium"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/_13sdp"
+            android:text="Business Name : ">
+
+        </TextView>
+
+        <TextView
+
+            android:id="@+id/more_details_supplier"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:textColor="@color/themeblack"
+            android:fontFamily="@font/raleway_medium"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/_13sdp"
+            >
+
+        </TextView>
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp">
+
+        <TextView
+
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:textColor="@color/themeblack"
+            android:fontFamily="@font/raleway_medium"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/_13sdp"
+            android:text="Address : ">
+
+        </TextView>
+
+
+        <TextView
+
+            android:id="@+id/more_details_supplier_address"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:textColor="@color/themeblack"
+            android:fontFamily="@font/raleway_medium"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/_13sdp"
+            >
+
+        </TextView>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp">
+
+        <TextView
+
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:textColor="@color/themeblack"
+            android:fontFamily="@font/raleway_medium"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/_13sdp"
+            android:text="City : ">
+
+        </TextView>
+
+
+        <TextView
+
+            android:id="@+id/more_details_supplier_city"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:textColor="@color/themeblack"
+            android:fontFamily="@font/raleway_medium"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/_13sdp"
+            >
+
+        </TextView>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp">
+
+        <TextView
+
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:textColor="@color/themeblack"
+            android:fontFamily="@font/raleway_medium"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/_13sdp"
+            android:text="Post Code : ">
+
+        </TextView>
+
+
+
+        <TextView
+
+            android:id="@+id/more_details_supplier_postcode"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:textColor="@color/themeblack"
+            android:fontFamily="@font/raleway_medium"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/_13sdp"
+            >
+
+        </TextView>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp">
+
+        <TextView
+
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:textColor="@color/themeblack"
+            android:fontFamily="@font/raleway_medium"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/_13sdp"
+            android:text="Order Date/Time: ">
+
+        </TextView>
+
+        <TextView
+
+            android:id="@+id/more_details_order_date"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:textColor="@color/themeblack"
+            android:fontFamily="@font/raleway_medium"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/_13sdp"
+            >
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp">
+
+        <TextView
+
+            android:id="@+id/txt_more_detail"
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:textColor="@color/themeblack"
+            android:fontFamily="@font/raleway_medium"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/_13sdp"
+            android:text="Delivery Date : ">
+
+        </TextView>
+
+        <TextView
+
+            android:id="@+id/more_details_delivery_date"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:textColor="@color/themeblack"
+            android:fontFamily="@font/roboto_medium"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/_13sdp"
+            >
+
+
+        </TextView>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+
+        android:paddingBottom="@dimen/_20sdp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:textColor="@color/themeblack"
+            android:fontFamily="@font/raleway_medium"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/_13sdp"
+            android:text="Desc : ">
+
+        </TextView>
+
+        <TextView
+
+            android:id="@+id/more_details_description"
+            android:paddingBottom="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:textColor="@color/themeblack"
+            android:fontFamily="@font/raleway_medium"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/_13sdp"
+            >
+
+        </TextView>
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+    <LinearLayout
+
+        android:id="@+id/layout_del_details"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp">
+
+        <TextView
+
+            android:textStyle="bold"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:textColor="@color/themeblack"
+            android:fontFamily="@font/raleway_medium"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/_16sdp"
+            android:text="Shipping Details"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_39sdp" />
+
+    </LinearLayout>
+
+        <ImageView
+
+            android:background="@drawable/ic_line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp">
+
+        </ImageView>
+
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp">
+
+        <TextView
+
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:textColor="@color/themeblack"
+            android:fontFamily="@font/raleway_medium"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/_13sdp"
+            android:text="Customer : ">
+
+        </TextView>
+
+
+        <TextView
+
+            android:id="@+id/more_details_delivery_customer"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:textColor="@color/themeblack"
+            android:fontFamily="@font/raleway_medium"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/_13sdp"
+            >
+
+        </TextView>
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+
+        android:paddingBottom="@dimen/_10sdp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:textColor="@color/themeblack"
+            android:fontFamily="@font/raleway_medium"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/_13sdp"
+            android:text="Address : ">
+
+        </TextView>
+
+
+
+        <TextView
+
+            android:id="@+id/more_details_delivery_address"
+            android:paddingBottom="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/themeblack"
+            android:fontFamily="@font/raleway_medium"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/_13sdp"
+            >
+
+        </TextView>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp">
+
+        <TextView
+
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:textColor="@color/themeblack"
+            android:fontFamily="@font/raleway_medium"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/_13sdp"
+            android:text="City : ">
+
+        </TextView>
+
+
+        <TextView
+
+            android:id="@+id/more_details_delivery_city"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:textColor="@color/themeblack"
+            android:fontFamily="@font/raleway_medium"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/_13sdp"
+            >
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp">
+
+        <TextView
+
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:textColor="@color/themeblack"
+            android:fontFamily="@font/raleway_medium"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/_13sdp"
+            android:text="Post Code : ">
+
+        </TextView>
+
+
+        <TextView
+
+            android:id="@+id/more_details_delivery_postcode"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:textColor="@color/themeblack"
+            android:fontFamily="@font/raleway_medium"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/_13sdp"
+            >
+
+        </TextView>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

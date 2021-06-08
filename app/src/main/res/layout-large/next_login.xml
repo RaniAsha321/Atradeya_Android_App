@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Next_Login_Page"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+<LinearLayout
+
+    android:paddingBottom="@dimen/_30sdp"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:layout_width="@dimen/_300sdp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_120sdp"
+        android:orientation="vertical">
+
+        <ImageView
+
+            android:layout_gravity="center"
+            android:id="@+id/logo"
+            android:background="@drawable/newlogo"
+            android:layout_width="@dimen/_250sdp"
+            android:layout_height="@dimen/_80sdp"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_marginTop="@dimen/_8sdp"
+        android:id="@+id/text_layout"
+        android:layout_below="@id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+
+            android:textStyle="bold"
+            android:fontFamily="@font/raleway_medium"
+            android:textColor="#333e48"
+            android:textSize="@dimen/_16sdp"
+            android:text="Hello"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+
+            android:layout_marginTop="@dimen/_5sdp"
+            android:textStyle="bold"
+            android:id="@+id/user"
+            android:fontFamily="@font/raleway_medium"
+            android:textColor="#333e48"
+            android:textSize="@dimen/_16sdp"
+            android:layout_gravity="center"
+            android:text="Scott"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_marginTop="@dimen/_10sdp"
+        android:id="@+id/Text_help_layout"
+        android:gravity="center"
+        android:layout_below="@id/text_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+
+            android:textStyle="bold"
+            android:fontFamily="@font/raleway_medium"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:textColor="#333e48"
+            android:textSize="@dimen/_16sdp"
+            android:text="How may we help?"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+
+        android:layout_marginTop="@dimen/_15sdp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_below="@id/Text_help_layout"
+        android:layout_width="@dimen/_300sdp"
+        android:layout_height="@dimen/_60sdp">
+
+
+        <Button
+
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:fontFamily="@font/roboto_medium"
+            android:background="@drawable/shape_rounded_green"
+            android:id="@+id/splash_login"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/_14sdp"
+            android:gravity="center"
+            android:text="Login"
+            android:layout_width="@dimen/_285sdp"
+            android:layout_height="@dimen/_35sdp">
+
+        </Button>
+
+    </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+
+    android:background="@color/white"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+
+        android:layout_weight="4.6"
+        android:weightSum="2"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:orientation="horizontal"
+            android:weightSum="7">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3.1"
+                android:gravity="center">
+
+                <ImageView
+
+                    android:visibility="gone"
+                    android:id="@+id/back"
+                    android:layout_width="25dp"
+                    android:layout_height="@dimen/_18sdp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/back_icon" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.8"
+                android:gravity="center">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_30sdp"
+                    android:fontFamily="@font/raleway_medium"
+                    android:gravity="center"
+                    android:text="Default Delivery Details"
+                    android:textColor="#333e48"
+                    android:textSize="@dimen/_19sdp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3.1"
+                android:gravity="center">
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_weight="0.4"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+
+        android:layout_marginTop="@dimen/_10sdp"
+
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_170sdp">
+
+
+        <LinearLayout
+
+            android:background="@drawable/circular_shape"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="@dimen/_140sdp"
+            android:layout_height="@dimen/_140sdp" >
+
+            <ImageView
+
+                android:id="@+id/profilepic"
+                android:background="@drawable/newlogo"
+                android:layout_gravity="center"
+                android:layout_width="@dimen/_130sdp"
+                android:layout_height="@dimen/_40sdp"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:paddingRight="@dimen/_10sdp"
+        android:paddingLeft="@dimen/_10sdp"
+        android:gravity="center"
+        android:id="@+id/layout_purchase_order"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp">
+
+     <!--   <TextView
+
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:textColor="@color/themeblack"
+            android:fontFamily="@font/raleway_medium"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/_22sdp"
+            android:text="Default Delivery Details"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_38sdp" />-->
+
+
+        <TextView
+
+            android:id="@+id/txt_default_delivery_edit"
+            android:paddingTop="@dimen/_10sdp"
+            android:textStyle="bold"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:textColor="@color/themered"
+            android:fontFamily="@font/raleway_medium"
+            android:gravity="right"
+            android:textSize="@dimen/_14sdp"
+            android:text="Edit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+    </LinearLayout>
+
+        <ImageView
+
+            android:background="@drawable/ic_line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp">
+
+        </ImageView>
+
+        <LinearLayout
+
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp">
+
+
+            <TextView
+
+                android:id="@+id/txt_default_delivery_first_name"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_30sdp"
+                android:textColor="@color/themeblack"
+                android:fontFamily="@font/raleway_medium"
+                android:gravity="center_vertical"
+                android:textSize="@dimen/_13sdp"
+                >
+
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp">
+
+
+            <TextView
+
+                android:id="@+id/txt_default_delivery_last_name"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_30sdp"
+                android:textColor="@color/themeblack"
+                android:fontFamily="@font/raleway_medium"
+                android:gravity="center_vertical"
+                android:textSize="@dimen/_13sdp"
+                >
+
+            </TextView>
+
+        </LinearLayout>
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp">
+
+
+        <TextView
+
+            android:id="@+id/txt_default_delivery_company_name"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:textColor="@color/themeblack"
+            android:fontFamily="@font/raleway_medium"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/_13sdp"
+            >
+
+        </TextView>
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp">
+
+
+        <TextView
+
+            android:id="@+id/txt_default_delivery_address"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:textColor="@color/themeblack"
+            android:fontFamily="@font/raleway_medium"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/_13sdp"
+            >
+
+        </TextView>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp">
+
+
+        <TextView
+
+            android:id="@+id/txt_default_delivery_company_address"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:textColor="@color/themeblack"
+            android:fontFamily="@font/raleway_medium"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/_13sdp"
+            >
+
+        </TextView>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp">
+
+
+
+        <TextView
+
+            android:id="@+id/txt_default_delivery_company_city"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:textColor="@color/themeblack"
+            android:fontFamily="@font/raleway_medium"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/_13sdp"
+            >
+
+        </TextView>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp">
+
+
+        <TextView
+
+            android:id="@+id/txt_default_delivery_company_postcode"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:textColor="@color/themeblack"
+            android:fontFamily="@font/raleway_medium"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/_13sdp"
+            >
+
+        </TextView>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+
+    android:background="#ffffff"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_170sdp"
+    tools:context=".Specification_Tab"
+    android:orientation="vertical">
+
+    <androidx.core.widget.NestedScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+
+            android:weightSum="7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                 <TextView
+
+                     android:layout_marginBottom="@dimen/_5sdp"
+                     android:textStyle="bold"
+                     android:fontFamily="@font/raleway_medium"
+                     android:textColor="#333e48"
+                     android:paddingLeft="20dp"
+                     android:layout_marginTop="20dp"
+                     android:textSize="@dimen/_14sdp"
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:text="Pdf Info" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+
+                android:id="@+id/pdf_lay1"
+                android:weightSum="4"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_30sdp">
+
+                <LinearLayout
+
+                    android:gravity="center"
+                    android:layout_weight="3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+
+                        android:layout_marginLeft="@dimen/_15sdp"
+                        android:background="@drawable/pdf_icon"
+                        android:layout_width="@dimen/_25sdp"
+                        android:layout_height="@dimen/_25sdp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+
+                        android:id="@+id/pdf_1"
+                        android:textSize="@dimen/_12sdp"
+                        android:textColor="#333e48"
+                        android:fontFamily="@font/roboto_medium"
+                        android:gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+
+                android:id="@+id/pdf_lay2"
+                android:weightSum="4"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_30sdp">
+
+                <LinearLayout
+
+                    android:gravity="center"
+                    android:layout_weight="3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+
+                        android:layout_marginLeft="@dimen/_15sdp"
+                        android:background="@drawable/pdf_icon"
+                        android:layout_width="@dimen/_25sdp"
+                        android:layout_height="@dimen/_25sdp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+
+                        android:id="@+id/pdf_2"
+                        android:textSize="@dimen/_12sdp"
+                        android:textColor="#333e48"
+                        android:fontFamily="@font/roboto_medium"
+                        android:gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+
+                android:id="@+id/pdf_lay3"
+                android:weightSum="4"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_30sdp">
+
+                <LinearLayout
+
+                    android:gravity="center"
+                    android:layout_weight="3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+
+                        android:layout_marginLeft="@dimen/_15sdp"
+                        android:background="@drawable/pdf_icon"
+                        android:layout_width="@dimen/_25sdp"
+                        android:layout_height="@dimen/_25sdp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+
+                        android:textSize="@dimen/_12sdp"
+                        android:textColor="#333e48"
+                        android:fontFamily="@font/roboto_medium"
+                        android:gravity="center_vertical"
+                        android:id="@+id/pdf_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:id="@+id/pdf_lay4"
+                android:weightSum="4"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_30sdp">
+
+                <LinearLayout
+
+                    android:gravity="center"
+                    android:layout_weight="3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+
+                        android:layout_marginLeft="@dimen/_15sdp"
+                        android:background="@drawable/pdf_icon"
+                        android:layout_width="@dimen/_25sdp"
+                        android:layout_height="@dimen/_25sdp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+
+                        android:textSize="@dimen/_12sdp"
+                        android:textColor="#333e48"
+                        android:fontFamily="@font/roboto_medium"
+                        android:gravity="center_vertical"
+                        android:id="@+id/pdf_4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:id="@+id/pdf_lay5"
+                android:weightSum="4"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_30sdp">
+
+                <LinearLayout
+
+                    android:gravity="center"
+                    android:layout_weight="3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+
+                        android:layout_marginLeft="@dimen/_15sdp"
+                        android:background="@drawable/pdf_icon"
+                        android:layout_width="@dimen/_25sdp"
+                        android:layout_height="@dimen/_25sdp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+
+                        android:textSize="@dimen/_12sdp"
+                        android:textColor="#333e48"
+                        android:fontFamily="@font/roboto_medium"
+                        android:gravity="center_vertical"
+                        android:id="@+id/pdf_5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:id="@+id/pdf_lay6"
+                android:weightSum="4"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_30sdp">
+
+                <LinearLayout
+
+                    android:gravity="center"
+                    android:layout_weight="3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+
+                        android:layout_marginLeft="@dimen/_15sdp"
+                        android:background="@drawable/pdf_icon"
+                        android:layout_width="@dimen/_25sdp"
+                        android:layout_height="@dimen/_25sdp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+
+                        android:textSize="@dimen/_12sdp"
+                        android:textColor="#333e48"
+                        android:fontFamily="@font/roboto_medium"
+                        android:gravity="center_vertical"
+                        android:id="@+id/pdf_6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    android:weightSum="9"
+    android:background="@color/white"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cart"
+    android:orientation="vertical"
+    >
+
+
+    <LinearLayout
+
+        android:layout_weight="8.5"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+
+            android:id="@+id/txtvw_project"
+            android:textStyle="bold"
+            android:fontFamily="@font/raleway_medium"
+            android:textColor="#383d43"
+            android:textSize="@dimen/_18sdp"
+            android:gravity="center"
+            android:text="Projects"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_30sdp" />
+
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+
+        android:layout_weight="0.5"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <LinearLayout
+
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.recyclerview.widget.RecyclerView
+
+            android:id="@+id/projects_recyclervw"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </androidx.recyclerview.widget.RecyclerView>
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:id="@+id/layout_add_project"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+
+            android:fontFamily="@font/raleway_medium"
+            android:id="@+id/addprobtn"
+            android:textAllCaps="false"
+            android:textSize="@dimen/_15sdp"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:text="Add Project"
+            android:background="@drawable/shape_rounded_green"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp" />
+
+    </LinearLayout>
+
+        </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

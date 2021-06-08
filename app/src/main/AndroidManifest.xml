@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.atradeya.asharani">
+
+    <dist:module dist:instant="true" />
+
+    <supports-screens android:smallScreens="true"
+        android:normalScreens="true"
+        android:largeScreens="true"
+        android:xlargeScreens="true"
+        android:anyDensity="true" />
+
+    <!--
+        <application
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+            <activity android:name=".MainActivity">
+                <intent-filter>
+                    <action android:name="android.intent.action.MAIN" />
+
+                    <category android:name="android.intent.category.LAUNCHER" />
+                </intent-filter>
+            </activity>
+        </application>-->
+
+
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+
+        android:usesCleartextTraffic="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:name="com.atradeya.asharani.App"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar"
+        tools:replace="android:appComponentFactory"
+        android:appComponentFactory="whateverString"
+        android:allowBackup="false"
+        android:configChanges="uiMode"
+        android:fullBackupOnly="false"
+        >
+
+        <meta-data
+            android:name="firebase_messaging_auto_init_enabled"
+            android:value="false" />
+        <meta-data
+            android:name="firebase_analytics_collection_enabled"
+            android:value="false" />
+
+        <meta-data android:name="com.google.firebase.messaging.default_notification_icon" android:resource="@drawable/fevicon_iocn" />
+        <meta-data android:name="com.google.firebase.messaging.default_notification_color" android:resource="@color/bluetheme" />
+
+
+        <activity android:name="com.atradeya.asharani.Splash_Main"
+            android:screenOrientation="portrait">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.atradeya.asharani.Login"
+            android:screenOrientation="portrait">
+
+        </activity>
+
+        <activity android:name="com.atradeya.asharani.Payment_Stripe.AddPayment"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden">
+
+        </activity>
+
+        <activity android:name="com.atradeya.asharani.Login_Type"
+            android:screenOrientation="portrait"></activity>
+
+        <activity android:name="com.atradeya.asharani.Add_Address"
+            android:screenOrientation="portrait"></activity>
+
+        <activity android:name="com.atradeya.asharani.SignUp_Email_Screen"
+            android:screenOrientation="portrait"></activity>
+
+        <activity android:name="com.atradeya.asharani.SignUp_second_screen"
+            android:screenOrientation="portrait"></activity>
+
+        <activity android:name="com.atradeya.asharani.SignUp_Third_Screen"
+            android:screenOrientation="portrait"></activity>
+
+        <activity android:name="com.atradeya.asharani.Address_Already_Added"
+            android:screenOrientation="portrait"></activity>
+
+
+        <activity android:name="com.atradeya.asharani.SignUp_Fourth_Screen"
+            android:screenOrientation="portrait"></activity>
+
+
+        <activity android:name="com.atradeya.asharani.GetPostcode2"
+            android:screenOrientation="portrait"></activity>
+
+        <activity android:name="com.atradeya.asharani.Next_Login_Page"
+            android:screenOrientation="portrait"></activity>
+
+        <activity android:name="com.atradeya.asharani.Home"
+            android:screenOrientation="portrait"></activity>
+
+        <activity android:name="com.atradeya.asharani.Forgot_Password"
+            android:screenOrientation="portrait"></activity>
+
+        <activity android:name="com.atradeya.asharani.Project_details_add_project"
+            android:screenOrientation="portrait"></activity>
+
+        <activity android:name="com.atradeya.asharani.Project_details_already_added"
+            android:screenOrientation="portrait"></activity>
+
+        <activity android:name="com.atradeya.asharani.Search"></activity>
+
+        <activity android:name="com.atradeya.asharani.Custom_Notification"></activity>
+
+        <activity android:name="com.atradeya.asharani.App_Main"
+            android:screenOrientation="portrait"></activity>
+
+        <receiver
+            android:name="com.atradeya.asharani.DatabaseChangedReceiver"
+            android:enabled="true" >
+            <intent-filter>
+                <action android:name="com.example.scorpsoft.DATABASE_CHANGED"></action>
+            </intent-filter>
+        </receiver>
+
+
+        <!-- Firebase Notifications -->
+        <service android:name="com.atradeya.asharani.service.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+
+
+        <service android:name="com.atradeya.asharani.service.MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <!-- ./Firebase Notifications -->
+
+
+
+
+    </application>
+
+</manifest>

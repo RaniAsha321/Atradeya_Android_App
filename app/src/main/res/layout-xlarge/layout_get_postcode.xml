@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+
+    android:weightSum="5"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:weightSum="5"
+        android:gravity="center"
+        android:layout_weight="3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_weight="4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/raleway_medium"
+                android:gravity="center"
+                android:text="City Details"
+                android:textColor="#333e48"
+                android:textSize="@dimen/_19sdp"
+                android:textStyle="bold" />
+
+
+            <View
+
+                android:layout_marginTop="@dimen/_5sdp"
+                android:background="@drawable/top_mar"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp">
+
+            </View>
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+           <ImageView
+
+           android:gravity="center"
+           android:layout_width="@dimen/_140sdp"
+           android:layout_height="@dimen/_50sdp"
+           android:layout_gravity="center"
+           android:background="@drawable/newlogo" />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:weightSum="5"
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+
+            android:layout_weight="2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+
+                android:gravity="top"
+                android:orientation="vertical"
+                android:layout_margin="@dimen/_25sdp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+
+                    android:id="@+id/layout_city"
+                    android:weightSum="6"
+                    android:orientation="horizontal"
+                    android:background="@drawable/shape_corner_rounded"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_35sdp">
+
+
+                    <LinearLayout
+
+                        android:weightSum="5"
+                        android:id="@+id/drop_project"
+                        android:orientation="horizontal"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+
+                            android:gravity="center"
+                            android:layout_weight="0.5"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <TextView
+
+                                android:textColor="@color/themeblack"
+                                android:textStyle="bold"
+                                android:id="@+id/tv_drop_city"
+                                android:gravity="center"
+                                android:text="Select City"
+                                android:textSize="@dimen/_12sdp"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+
+                            android:gravity="center"
+                            android:layout_weight="4.5"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+
+                                android:background="@drawable/dropmenu"
+                                android:layout_gravity="center"
+                                android:layout_width="@dimen/_10sdp"
+                                android:layout_height="@dimen/_10sdp" />
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+                <Button
+
+                    android:id="@+id/btn_submit_postcode"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_35sdp"
+                    android:background="@drawable/shape_rounded_green"
+                    android:textAllCaps="false"
+                    android:text="Submit"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/_14sdp"
+                    android:fontFamily="@font/roboto_medium"/>
+
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_weight="3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

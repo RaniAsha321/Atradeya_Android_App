@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+
+    android:orientation="vertical"
+    android:weightSum="9"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_weight="8"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/raleway_medium"
+            android:gravity="center"
+            android:text="Default Delivery Address"
+            android:textColor="#333e48"
+            android:textSize="@dimen/_19sdp"
+            android:textStyle="bold" />
+
+
+        <View
+
+            android:layout_marginTop="@dimen/_5sdp"
+            android:background="@drawable/top_mar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_2sdp">
+
+        </View>
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:weightSum="7"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <LinearLayout
+
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+
+                android:layout_marginTop="@dimen/_25sdp"
+                android:layout_marginBottom="@dimen/_25sdp"
+                android:id="@+id/login_logo"
+                android:background="@drawable/newlogo"
+                android:layout_width="@dimen/_250sdp"
+                android:layout_height="@dimen/_60sdp"/>
+
+            <LinearLayout
+
+                android:layout_weight="1"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:background="@drawable/shape_rounded_black"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:orientation="horizontal"
+                android:weightSum="4"
+                >
+
+                <LinearLayout
+
+                    android:gravity="left"
+                    android:layout_weight="0.5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+
+
+                        android:id="@+id/txt_default_delivery_address"
+                        android:textColorHint="#333e48"
+                        android:textColor="#333e48"
+                        android:fontFamily="@font/raleway_medium"
+                        android:textSize="@dimen/_11sdp"
+                        android:paddingLeft="@dimen/_20sdp"
+                        android:gravity="center_vertical"
+                        android:hint="Delivery Address"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                </LinearLayout>
+
+                <LinearLayout
+
+                    android:gravity="center"
+                    android:layout_weight="3.5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+
+                        android:background="@drawable/address_icon72"
+                        android:layout_width="@dimen/_10sdp"
+                        android:layout_height="@dimen/_10sdp" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_weight="1"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:background="@drawable/shape_corner_rounded"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:orientation="horizontal"
+                android:weightSum="4"
+                >
+
+                <LinearLayout
+
+                    android:gravity="left"
+                    android:layout_weight="0.5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+
+                        android:id="@+id/txt_default_delivery_company_name"
+                        android:textColorHint="#333e48"
+                        android:textColor="#333e48"                        android:fontFamily="@font/raleway_medium"
+                        android:textSize="@dimen/_11sdp"
+                        android:paddingLeft="@dimen/_20sdp"
+                        android:gravity="center_vertical"
+                        android:hint="Delivery Company Name"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                </LinearLayout>
+
+                <LinearLayout
+
+                    android:gravity="center"
+                    android:layout_weight="3.5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+
+                        android:background="@drawable/company_name"
+                        android:layout_width="@dimen/_10sdp"
+                        android:layout_height="@dimen/_10sdp" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_weight="1"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:background="@drawable/shape_corner_rounded"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:orientation="horizontal"
+                android:weightSum="4"
+                >
+
+                <LinearLayout
+
+                    android:gravity="left"
+                    android:layout_weight="0.5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+
+                        android:id="@+id/txt_default_delivery_company_address"
+                        android:textColorHint="#333e48"
+                        android:textColor="#333e48"
+                        android:fontFamily="@font/raleway_medium"
+                        android:textSize="@dimen/_11sdp"
+                        android:paddingLeft="@dimen/_20sdp"
+                        android:gravity="center_vertical"
+                        android:text="Delivery Company Address"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                </LinearLayout>
+
+                <LinearLayout
+
+                    android:gravity="center"
+                    android:layout_weight="3.5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+
+                        android:background="@drawable/company_address_logo"
+                        android:layout_width="@dimen/_10sdp"
+                        android:layout_height="@dimen/_10sdp" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_weight="1"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:background="@drawable/shape_corner_rounded"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:orientation="horizontal"
+                android:weightSum="4"
+                >
+
+                <LinearLayout
+
+                    android:gravity="left"
+                    android:layout_weight="0.5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+
+                        android:id="@+id/txt_default_delivery_company_city"
+                        android:textColorHint="#333e48"
+                        android:textColor="#333e48"
+                        android:fontFamily="@font/raleway_medium"
+                        android:textSize="@dimen/_11sdp"
+                        android:paddingLeft="@dimen/_20sdp"
+                        android:gravity="center_vertical"
+                        android:hint="Delivery Company City"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                </LinearLayout>
+
+                <LinearLayout
+
+                    android:gravity="center"
+                    android:layout_weight="3.5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+
+                        android:background="@drawable/company_city_icon"
+                        android:layout_width="@dimen/_10sdp"
+                        android:layout_height="@dimen/_10sdp" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_weight="1"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:background="@drawable/shape_corner_rounded"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:orientation="horizontal"
+                android:weightSum="4"
+                >
+
+                <LinearLayout
+
+                    android:gravity="left"
+                    android:layout_weight="0.5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+
+                        android:id="@+id/txt_default_delivery_company_postcode"
+                        android:textColorHint="#333e48"
+                        android:textColor="#333e48"
+                        android:fontFamily="@font/raleway_medium"
+                        android:textSize="@dimen/_11sdp"
+                        android:paddingLeft="@dimen/_20sdp"
+                        android:gravity="center_vertical"
+                        android:hint="Delivery Company PostCode"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                </LinearLayout>
+
+                <LinearLayout
+
+                    android:gravity="center"
+                    android:layout_weight="3.5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+
+                        android:background="@drawable/project_icon"
+                        android:layout_width="@dimen/_10sdp"
+                        android:layout_height="@dimen/_10sdp" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        </ScrollView>
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
